@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Forms and Tables</title>  
+        <style> 
+        td, th{border: 1px solid black;}
+        </style>
+    </head>
+    <body>
+        <h1> Table an Forms Day</h1>
+        <h2> Tables</h2>
+        <table> 
+            <caption> World Population </caption>
+            <tr> 
+                <th> Country</th>
+                <th> Population</th>
+                <th>Percent of World Population</th>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>1,403,830,640</td>
+                <td>18.0%</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1,365,529,124</td>
+                <td>17.5%</td>
+            </tr>
+        </table> 
+
+
+        <h2>Forms</h2>
+        <!-- All Form Tags MUST be inside the Form Tag-->
+        <h3>Takeout Ordering</h3>
+        <form action="" method="post">
+            <label> Full Name:</label> 
+            <input type="text" id="fullname" name="fullname">
+             <br>
+            <br>
+            <label>Order Items</label>
+            <br>  
+            <textarea id="orderitems" name="orderitems" rows="4" cols="50">
+                
+            
+            </textarea><br>
+            <!--id uniquly identifies tag on HTML page-->
+            <input type="radio" id="pickup1" name="pickup" value="pickup"> <!--
+                Having more than one option but can only choose one
+            -->
+            <label>pickup</label>
+            <input type="radio" id="pickup1" name="pickup" value="delivery"> 
+            <label> delivery</label>
+            <br>
+
+            <input type="checkbox" id="ketchup" name="ketchup" value="extra ketchup"> <!--Checkbox-->
+            <label> Do you want extra ketchup?</label>
+            <br>
+
+            <label>Delivery Location:</label> <br>
+            <select id="location" name="location">
+                <option value="westcott"> Westcott</option>
+                <option value="downtown"> Downtown</option>
+                <option value="eastwood">Eastwood</option>
+
+            </select><br>
+
+            <input type="submit" value="Order It">
+
+        </form>
+    </body>
+        
+    
+</html>
