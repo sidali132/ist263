@@ -1,0 +1,15 @@
+ /*below is an element selector */
+ h1 {color: blue;}
+
+ /*below is a grouped selector */
+ p, h1 {font-size: 200%;
+     font-family:'Courier New', Courier, monospace;
+     font-weight: bolder;
+     background-color:darkgray;}
+
+ /* below is a descedent selector and it only changes links inside paragraph tags*/
+p a {color: green;}
+ /* Class selector can be used to pick one ore more tags on a page*/
+.secondpara {color:aqua; }
+/* id selector and ids must be unique*/
+#firstpara {color:blue; }
