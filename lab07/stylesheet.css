@@ -1,12 +1,27 @@
-h1{ 
+h1, h2, h3{ 
     font-family: 'Times New Roman', Times, serif;
-    color: #ea7500e9 
-    ;
+    color: #ea7500e9 ;
+    background-color: #000;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b22222;
+    background-blend-mode: color;
 }
 body {
-    background-color: #00ac03 ;
+    background-color: #ffffff ;
 }
-td, th{
+td, th, tr{
     font-family: 'Courier New', Courier, monospace;
-    color: #ff000f
+    color: #ff000f;
+    background-color:#b0afafd5
+}
+a{
+    color:#cad102a2 
+}
+label, caption{
+    font-weight: bold;
+    font-size: medium;
+    color: teal;
+    background-origin: initial;
 }
