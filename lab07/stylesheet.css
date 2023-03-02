@@ -1,0 +1,12 @@
+h1{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: #ea7500e9 
+    ;
+}
+body {
+    background-color: #00ac03 ;
+}
+td, th{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff000f
+}
