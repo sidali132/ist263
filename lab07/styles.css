@@ -1,0 +1,5 @@
+h1, h2, h3 {font-family: 'Brush Script MT',cursive;
+    color: navy;}
+p {font-family: 'Courier New', monospace;}
+td, th{border:1px solid black}
+table .class{color:darkgrey;}
