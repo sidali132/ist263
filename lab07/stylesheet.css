@@ -3,13 +3,14 @@ h1, h2, h3{
     color: #ea7500e9 ;
     background-color: #000;
 }
-p{
+p, li{
     font-family: Arial, Helvetica, sans-serif;
     color: #b22222;
     background-blend-mode: color;
 }
 body {
-    background-color: #ffffff ;
+    
+    background-color: #50064f ;
 }
 td, th, tr{
     font-family: 'Courier New', Courier, monospace;
