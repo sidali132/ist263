@@ -1,0 +1,7 @@
+img{float: left; margin-right: 10px;}
+           
+            .clear{clear: both;}
+            .List{float: left;}
+            .copy{ float: left;}
+            .quote{float: right;}
+            .P{text-align: left;}

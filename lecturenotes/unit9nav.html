@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav{
+            background-color: #000000;
+            padding: 5px;
+            color: #ffffff;
+        }
+        nav div{
+            padding: 5px;
+        }
+        .nav1{
+            display:flex;
+            justify-content: flex-end;
+        }
+        .nav2{
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav3{
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav4{
+            display: flex;
+            justify-content: space-between;
+        }
+        .childflexbox{
+            display: flex;
+        }
+        </style>
+</head>
+<body> 
+    <h1> Nagivation</h1>
+    <h2> Flex End</h2>
+    <nav class= "nav1"> <!-- flexbox row-->
+        <div>Home</div> <!-- first flexbox column-->
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2> Space around</h2>
+    <nav class= "nav2"> <!-- flexbox row-->
+        <div>Home</div> <!-- first flexbox column-->
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2> Space Between</h2>
+    <nav class= "nav3"> <!-- flexbox row-->
+        <div>Home</div> <!-- first flexbox column-->
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2> Split navigation</h2>
+    <nav class = "nav4"> 
+        <div class = "childflexbox"> 
+            <div> Home </div>
+            <div> About Us </div>
+            <div> Products </div>
+            <div> Contact</div>
+            
+
+        </div>
+        <div class= 'childflexbox'>
+            <div> Facebook </div>
+            <div> Twitter </div>
+        </div>
+    </nav>
+    
+
+
+</body>
+</html>
