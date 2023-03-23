@@ -1,0 +1,42 @@
+h1, h2, h3{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: #ea7500e9 ;
+    background-color: #000;
+}
+h1 { 
+    text-align: center;}
+p, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b22222;
+    background-blend-mode: color;
+}
+body {
+    
+    background-color: #fffcff ;
+}
+td, th, tr{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff000f;
+    background-color:#b0afafd5
+}
+a{
+    color:#cad102a2 
+}
+label, caption{
+    font-weight: bold;
+    font-size: medium;
+    color: #008080;
+    background-origin: initial;
+}
+nav a{
+    background-size: 10px;
+    background-color: #1aff00;
+    color: #000000
+    
+}
+nav a:hover{
+    background-color: #ff69b4;
+}
+nav{
+    margin-bottom: 30px;
+}
