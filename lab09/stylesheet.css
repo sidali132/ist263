@@ -7,8 +7,10 @@ h1, h3{
     display: flex;
     flex-direction: column;
     background-color: #1aff00;
+    block-size: 300px;
+    width: fit-content;
     color:#fffcff;
-    flex-wrap: wrap;
+    margin-block:initial;
 }
 h1 { 
     text-align: center;}
@@ -48,7 +50,6 @@ nav{
     margin-bottom: 30px;
 }
 .flexbox1{
+    display: flex;
     flex-direction: row;
-    display: flex; 
-    justify-content:flex-start;
 }
