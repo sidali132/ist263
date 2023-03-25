@@ -44,3 +44,7 @@ img{
     display: flex; 
 }
 .icon{display:flexbox;}
+.rows{
+    display: flex;
+    justify-content: center;
+}
