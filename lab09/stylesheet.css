@@ -40,11 +40,7 @@ nav a:hover{
 nav{
     margin-bottom: 30px;
 }
-img{
+img, .rows{
     display: flex; 
-}
-.icon{display:flexbox;}
-.rows{
-    display: flex;
     justify-content:flex-start;
 }
