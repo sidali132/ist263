@@ -1,0 +1,89 @@
+h1, h3{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: #ea7500e9 ;
+    background-color: #000;
+}
+
+h1 { 
+    text-align: center;}
+p, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b22222;
+    background-blend-mode: color;
+}
+body {
+    
+    background-color: #fffcff ;
+}
+td, th, tr{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff000f;
+    background-color:#b0afafd5
+}
+a{
+    color:#cad102a2 
+}
+label, caption{
+    font-weight: bold;
+    font-size: medium;
+    color: #008080;
+    background-origin: initial;
+}
+nav a{
+    background-size: 10px;
+    background-color: #1aff00;
+    color: #000000
+    
+}
+nav a:hover{
+    background-color: #ff69b4;
+}
+
+nav{
+    margin-bottom: 30px;
+    
+}
+.flexbox{
+    
+    display: flex;
+}
+.flexbox1{
+    display: flex;
+    flex: 350%;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+.flexbox2{
+    display:flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+
+}
+.flexbox3, .a{ display: flex;
+    flex-direction: column;
+    background-color: #1aff00;
+    border-radius: 10px;
+    block-size: 350px;
+    color:#fffcff;
+    font-size: 15px;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.form, .iframe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+@media only screen and (max-width: 800px){
+    .H, .Sk, .CT{
+        width: 100%;
+        display: block;
+    }
+}
+.Span{
+    display:none;
+    max-width: 100%;
+    margin-top: 10%;
+}
