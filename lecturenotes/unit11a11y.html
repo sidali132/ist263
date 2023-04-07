@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip{
+            background-color: #0700cd;
+            padding: 5px;
+            border: 1px solid #000;
+            text-decoration: none;
+            position: absolute;
+            left: -999px;
+            top:30px;}
+        .skip:focus{
+            left:10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <a href="#main" class="skip" tabindex="1">Skip to content</a> <br> <!-- Bookmark Tags take you somewhere on the page-->
+        <a href="http://www.syr.edu" tabindex="2">Syracuse</a> <br>
+        <a href="http://ischool.syr.edu" tabindex="3">iSchool</a> <br>
+        <a href="http://soe.syr.edu" tabindex="4">SOE</a>
+    </section>
+
+    <section>
+        <h1>About Syracuse</h1>
+        <p id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde exercitationem earum vel aspernatur dolor aperiam fuga fugit itaque dignissimos in quos optio, saepe nemo eaque debitis, autem vitae sit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit explicabo vero, possimus non neque amet. Quidem officia aliquid voluptas nesciunt ad! Ullam nihil repellat animi officiis tempore quis dolor.</p>
+    </section>
+
+</body>
+</html>
