@@ -11,7 +11,7 @@ p, li{
     font-family: Arial, Helvetica, sans-serif;
     color: #b22222;
     background-blend-mode: color;
-   font-size: 30px;        }
+   font-size: 20px;        }
 body {
     
     background-color: #fffcff ;
@@ -20,7 +20,7 @@ td, th, tr{
     font-family: 'Courier New', Courier, monospace;
     color: #ff000f;
     background-color: #b0afaf;
-    font-size: 30px;    }
+    font-size: 20px;    }
 
 a{
     color:#cad102a2 
