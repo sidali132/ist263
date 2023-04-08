@@ -1,4 +1,4 @@
-h1, h2, h3{ 
+h1, h2{ 
     font-family: 'Times New Roman', Times, serif;
     color: #ea7500e9 ;
     background-color: #000;
@@ -64,10 +64,10 @@ nav{
 }
 .flexbox3, .a{ display: flex;
     flex-direction: column;
-    background-color: #1aff00;
+    background-color: #00ff1e;
     border-radius: 10px;
     block-size: 350px;
-    color:#fffcff;
+    color:#020202;
     font-size: 15px;
     padding-bottom: 5%;
     margin-top: 5%;
