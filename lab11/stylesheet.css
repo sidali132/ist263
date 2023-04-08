@@ -68,7 +68,7 @@ nav{
     border-radius: 10px;
     block-size: 350px;
     color:#ffffff;
-    font-size: 15px;
+    font-size: 15.5px;
     padding-bottom: 5%;
     margin-top: 5%;
     margin-left: 5%;
@@ -76,8 +76,10 @@ nav{
 }
 .form, .iframe {
     display: flex;
-    flex-wrap: wrap;
     flex-basis: 100%;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
 }
 @media only screen and (max-width: 800px){
     .H, .Sk, .CT{
