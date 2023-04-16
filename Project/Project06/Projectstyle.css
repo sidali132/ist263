@@ -1,3 +1,99 @@
-h1{
+h1{ 
+    color:#ffff;
     background-color: #0000ff;
+    block-size: 35px;
+    width:200px;
+    padding-left: 10px;  
+}
+h1{
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+body{background-color: #000;
+}
+
+nav a{
+    background-size: 10px;
+    background-color: #ffffff;
+    color: #000000}
+
+nav a:hover{
+    background-color: #ff69b4;}
+
+nav{
+    justify-content: center;
+    margin-bottom: 30px;}
+
+body{
+    background-color: #ffff;}
+
+.Link{
+    display: flex;
+    flex-direction: row;}
+    
+.Flex1{
+    display: flex;
+    flex: 100%;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5%;}
+
+.Flex2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    margin-top: 5%;}
+
+.Flex3{
+    display:flex;
+    justify-content: right;
+    justify-content: stretch;
+    flex-direction: column;
+    margin-top: 5%;}
+
+p{
+    justify-content: center;
+    font-size:large;
+    color: #000;
+    padding:7%;}
+
+.pb{
+    text-align: center;}
+
+
+/* 
+.flexbox1, img{
+    display: flex;
+    flex: 100%;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+}
+.flexbox2{
+    display:flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+
+}
+.flexbox3, .a{ display: flex;
+    flex-direction: column;
+    background-color: #0e0f0e;
+    border-radius: 10px;
+    block-size: 350px;
+    color:#ffffff;
+    font-size: 15.5px;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+
+     margin-block: 30px;
+    padding-left:10px;
+    padding-right:10px;
+   
+    text-align: center;
 }
