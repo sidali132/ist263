@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <!--
+        All CSS CODE
+    x 1. Large - No need for a hamburger
+    x 2. Small - You need to show a hamburger
+    x 3. Large - No X
+    x 4. Small - Show the X
+    x 5.. Large - Links Side by Side
+    x 6. Small - Links Stacked
+        7. Hide the link when they are small
+
+        JavaScript
+        8. On Hamburger Click Show the Links
+        9. On X hide the links
+
+    -->
+
+    <style>
+        #hamburger{
+            width: 50px;
+        }
+        .toplevel{
+            display:flex;
+        }
+        @media only screen and (min-width: 800px){
+            #hamburger, #close {
+                display:none;
+            }
+        }
+        @media only screen and (max-width:799px){
+            .navlinks{display:block; background-color: aqua;
+            border:2px solid #fff}  
+            #allLinks{display:none;} 
+        }
+   </style>
+   <script>
+        function showNav (){
+            document.getElementById("allLinks").style.display = "block";
+        }
+        function hideNav (){
+            document.getElementById("allLinks").style.display = "none";
+        }
+   </script>
+
+
+</head> 
+<body>
+    <div class="toplevel">
+    <img id="hamburger" onclick="showNav();"  scr="https://laferger.github.io/ist263/images/hamburger.png">
+    <p id="close" onclick="hideNav();" href="">X</p>
+</div>
+    <div id="allLinks">
+    
+    <a href ="index.html" class="navlinks">Home</a>
+    <a href ="skills" class="navlinks">Skills</a>
+    <a href ="contact.html" class="navlinks">Contact</a>
+</div>
+</body>
+</html>
