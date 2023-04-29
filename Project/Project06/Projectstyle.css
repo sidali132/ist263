@@ -48,8 +48,8 @@ body{
     justify-content: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    width: 0%;
-    height: 0%;
+    width: 2px;
+    height: 2px;
     background-color: #000;
     }
 
