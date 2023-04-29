@@ -66,6 +66,8 @@ body{
     }
 
 .SecP{
+    font-family: 'Castoro Titling', cursive;
+    font-size: small;
     text-align: center;
     padding-left: 5%;
     padding-right: 0%; 
