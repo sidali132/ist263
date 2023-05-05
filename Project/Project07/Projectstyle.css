@@ -80,7 +80,9 @@ body{
     display: block; 
     }
 
-@media screan and (max-width: 800px ){
+@media screan and (max-width: 800px ){.TH, .A, .PC{
+    width: 100%;
+    display: block;}
 }
 
 .Flex1, .Flex3{ max-height: 100%;
@@ -120,12 +122,6 @@ body{
     display: block;
     padding-right: 500px;
     }
-
-    /*
-    
-    justify-content: space-around;
-    float: right;
-    border-color: 1px solid#3300cd;} */
 
 
 .SecondPage{
