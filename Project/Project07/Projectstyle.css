@@ -1,7 +1,7 @@
 h1{ 
     justify-content: center;
     color:#ffff;
-    background-color: #0000ff;
+    
     block-size: 35px;
     width:200px;
     padding-left: 10px;}
@@ -12,7 +12,7 @@ h1{
 
 h2{ padding-right: 5%;
     padding-left: 15%; 
-    background-color:#0034ef;
+    
     color: #0034ef;
     }
 .SPage{
@@ -21,14 +21,16 @@ h2{ padding-right: 5%;
     text-align:center
     }
 
-
+.hr{
+    padding:5px;
+}
 nav a{
     background-size: 10px;
-    background-color: #0034ef;
+    background-color: #ffff;
     color: #000000}
 
 nav a:hover{
-    background-color: #ffff;}
+    background-color: white;}
 
 nav{
     text-align: center;
