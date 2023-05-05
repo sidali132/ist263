@@ -1,0 +1,209 @@
+h1{ 
+    justify-content: center;
+    color:#ffff;
+    background-color: #0000ff;
+    block-size: 35px;
+    width:200px;
+    padding-left: 10px;}
+.Sign{text-align: center;}
+h1{
+    justify-content: center;
+    margin-right: 50px;}
+
+h2{ padding-right: 5%;
+    padding-left: 15%; 
+    color:#0034ef;
+    }
+.SPage{
+    background-color: #000;
+    padding-bottom: 8%;
+    text-align:center
+    }
+
+
+nav a{
+    background-size: 10px;
+    background-color: #0034ef;
+    color: #000000}
+
+nav a:hover{
+    background-color: #ffff;}
+
+nav{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;}
+
+body{
+    background-color: #ffff;
+    opacity: 1.0;}
+
+.Link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+    
+.Flex1{
+    display: flex;
+    flex: 100%;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    }
+
+.Flex2, .BottomPage{
+    display: flex;
+    
+    }
+
+.FirP{
+    font-family: 'Castoro Titling', cursive;
+    font-size: small;
+    color: #000;
+    display: block;
+    }
+
+.SecP{
+    font-family: 'Castoro Titling', cursive;
+    font-size: small;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 0%; 
+    display: block; 
+    }
+
+@media screan and (max-width: 800px ){
+}
+
+.Flex1, .Flex3{ max-height: 100%;
+}
+.Rpic{
+    float: right;
+    width: 35%;
+    height: 110%;
+    padding-right: 100%;
+    
+    }
+.Mpic{
+    width:35%;
+    height: 110%;
+    border-left: 1px solid #3300cd;
+    
+    padding-bottom:50%;
+    
+    }
+.Rpic, .Mpic{
+    padding: 10px;}
+
+.TuTex{
+    display: block;
+    text-align: center;
+    padding-left: 500px;
+
+}
+.TuTex2{
+    display: block;
+    text-align: center;
+    padding-right: 500px;}
+
+.TT2{
+    display: flex;
+    text-align: center;
+    display: block;
+    padding-right: 500px;
+    }
+
+    /*
+    
+    justify-content: space-around;
+    float: right;
+    border-color: 1px solid#3300cd;} */
+
+
+.SecondPage{
+    background-color: #ffff;
+    
+}
+p{
+    color:#0000ff;
+    display: block;
+    flex-basis: 100%;
+    flex-direction: column;}
+
+.F1{display: flex;}
+.GA{display:flex;
+    flex-direction: row;
+    padding-top: 100%;
+    width: 500px;
+    height:230px;}
+
+.Musa, .DE, .DC, .Myself{padding:10px;}
+
+.DE{
+    width:250px;
+    height:400px;
+    
+}
+.Musa{
+    width:250px;
+    height:400px;
+}
+.DC{
+    width:250px;
+    height:400px;
+}
+.Myself{
+    width:250px;
+    height:400px;
+
+}
+.PicFlex{
+    display: flex;
+}
+
+/* 
+    
+    }
+.P-B{color:#ffff;
+    padding-top: 50%;
+    display: inline;}*/
+
+
+
+
+/* 
+.flexbox1, img{
+    display: flex;
+    flex: 100%;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+}
+.flexbox2{
+    display:flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+
+}
+.flexbox3, .a{ display: flex;
+    flex-direction: column;
+    background-color: #0e0f0e;
+    border-radius: 10px;
+    block-size: 350px;
+    color:#ffffff;
+    font-size: 15.5px;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+
+     margin-block: 30px;
+    padding-left:10px;
+    padding-right:10px;
+   
+    text-align: center;
+}
