@@ -18,7 +18,8 @@ h2{ padding-right: 5%;
 .SPage{
     background-color: #000;
     padding-bottom: 8%;
-    text-align:center
+    text-align:center;
+    color: #ffff;
     }
 
 .hr{
