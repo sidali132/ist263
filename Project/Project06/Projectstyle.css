@@ -12,11 +12,12 @@ h1{
 
 h2{ padding-right: 5%;
     padding-left: 15%; 
-    background-color: #0034ef;
+    color:#0034ef;
     }
 .SPage{
-    color:#0034ef;
-    background-color: #000000;
+    background-color: #000;
+    padding-bottom: 8%;
+    text-align:center
     }
 
 
