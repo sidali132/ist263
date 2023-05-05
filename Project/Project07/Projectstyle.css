@@ -84,19 +84,17 @@ body{
     width: 100%;
     display: block;}
 }
-
-.Flex1, .Flex3{ max-height: 100%;
-}
 .Rpic{
     float: right;
-    width: 35%;
-    height: 110%;
+    width: 200px;
+    height: 400px;
     padding-right: 100%;
     
     }
 .Mpic{
-    width:35%;
-    height: 110%;
+    float:right;
+    width: 200px;
+    height: 400px;
     border-left: 1px solid #3300cd;
     
     padding-bottom:50%;
@@ -114,13 +112,15 @@ body{
 .TuTex2{
     display: block;
     text-align: center;
-    padding-right: 500px;}
+    padding-right: 500px;
+    padding-top:500px;}
 
 .TT2{
-    display: flex;
+    
     text-align: center;
     display: block;
-    padding-right: 500px;
+    padding-bottom: 500px;
+    padding-top:500px;
     }
 
 
@@ -135,11 +135,6 @@ p{
     flex-direction: column;}
 
 .F1{display: flex;}
-.GA{display:flex;
-    flex-direction: row;
-    padding-top: 100%;
-    width: 500px;
-    height:230px;}
 
 .Musa, .DE, .DC, .Myself{padding:10px;}
 
@@ -163,47 +158,4 @@ p{
 }
 .PicFlex{
     display: flex;
-}
-
-/* 
-    
-    }
-.P-B{color:#ffff;
-    padding-top: 50%;
-    display: inline;}*/
-
-
-
-
-/* 
-.flexbox1, img{
-    display: flex;
-    flex: 100%;
-    justify-content: flex-start;
-    justify-content: space-evenly;
-    
-}
-.flexbox2{
-    display:flex;
-    justify-content: space-around;
-    flex-basis: 100%;
-
-}
-.flexbox3, .a{ display: flex;
-    flex-direction: column;
-    background-color: #0e0f0e;
-    border-radius: 10px;
-    block-size: 350px;
-    color:#ffffff;
-    font-size: 15.5px;
-    padding-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 5%;
-    padding-left: 5%;
-
-     margin-block: 30px;
-    padding-left:10px;
-    padding-right:10px;
-   
-    text-align: center;
 }
